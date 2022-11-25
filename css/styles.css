@@ -1,0 +1,88 @@
+/* колір заголовків, навігації  color: #2E2F42; */
+/* колір тексту color: #434455; */
+/* колір лого  ВЕБ color: #4D5AE5; */
+/* колір посилань background: #4D5AE5; */
+/* колір тексту футера color: #E7E9FC; */
+/* колір лого футер СТУДІО та фону сект  color: #F4F4FD; */
+
+
+:root {
+    --main-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-text-color: #4D5AE5;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #F4F4FD;
+}
+
+ul {
+    list-style: none;
+}
+
+  body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.webtext {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link {
+color: var(--title-text-color);
+}
+
+.auth-nav a {
+    color: var(--main-text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color:var(--main-text-color);}
+
+.site-nav .link:active {
+    color: var(--accent-text-color);
+}
+
+.auth-nav a:hover, .auth-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+
+.orderbutton {
+background-color: var(--accent-text-color);
+color: var(--main-bg-color);
+}
+
+
+.section-title {
+    color:var(--title-text-color);
+}
+
+.features-title {
+    color: var(--title-text-color);
+}
+
+.team-name {
+    color: var(--title-text-color);
+}
+
+.card-title {
+    color: var(--title-text-color);
+}
+
+
+.filterbutton {
+    background-color: var(--secondary-bg-color);
+    color: var(--accent-text-color);
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
