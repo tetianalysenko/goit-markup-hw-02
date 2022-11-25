@@ -35,6 +35,10 @@ ul {
 color: var(--title-text-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-text-color);
+    }
+
 .auth-nav a {
     color: var(--main-text-color);
 }
