@@ -85,14 +85,14 @@ color: var(--title-text-color);
 
 /* ==========================HERO====================== */
 
- /* .hero { 
-position: absolute;
+ .hero { 
+/* position: absolute;
 width: 1440px;
 height: 603px;
 left: 0px;
-top: 72px; 
+top: 72px;  */
 background: #2E2F42;
-  }   */
+  }   
 
 .main-title {
     /* font-family: 'Roboto', sans-serif; */
@@ -101,7 +101,7 @@ background: #2E2F42;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;   
-    /* color: var(--main-bg-color); */
+    color: var(--main-bg-color); 
 }
 
 
@@ -211,6 +211,9 @@ letter-spacing: 0.02em;
 
 /* =====================FOOTER======================== */
 
+.gen-footer {
+    background-color:#2E2F42;
+}
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
