@@ -12,6 +12,7 @@
     --accent-text-color: #4D5AE5;
     --main-bg-color: #ffffff;
     --secondary-bg-color: #F4F4FD;
+    --button-hover-color: #404BBF;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
 
 
 .logo-text {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -58,13 +59,14 @@ color: var(--title-text-color);
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color:var(--main-text-color);}
+     color:var(--accent-text-color); 
+    /* color: orange; */
+}
 
 
 .site-nav .link:active {
     color: var(--accent-text-color);
 }
-
 
 
 
@@ -94,7 +96,7 @@ background: #2E2F42;
 
 .main-title {
     /* font-family: 'Roboto', sans-serif; */
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -108,6 +110,19 @@ background: #2E2F42;
 background-color: var(--accent-text-color);
 color: var(--main-bg-color);
 cursor: pointer;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.26;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+}
+
+.orderbutton:hover,
+.orderbutton:focus {
+    background-color: var(--button-hover-color);
 }
 
 
@@ -117,7 +132,7 @@ cursor: pointer;
 .section-title {
 color:var(--title-text-color);
 /* font-family: 'Roboto', sans-serif; */
-font-weight: 600;
+font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -129,7 +144,7 @@ text-transform: capitalize;
 .features-title {
 color: var(--title-text-color);
 /* font-family: 'Roboto', sans-serif; */
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -149,7 +164,7 @@ letter-spacing: 0.02em;
 .team-name {
 color: var(--title-text-color);
 /* font-family: 'Roboto', sans-serif; */
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -165,21 +180,28 @@ letter-spacing: 0.02em;
 
 
 .filterbutton {
-    background-color: var(--secondary-bg-color);
-    color: var(--accent-text-color);
+    background-color: var(--accent-text-color);
+    color: var(--main-bg-color);
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 }
 
 .filterbutton:hover,
 .filterbutton:focus {
-    background-color: var(--accent-text-color);
+    background-color: var(--button-hover-color);
     color: var(--main-bg-color);
 }
 
 .card-title {
     color: var(--title-text-color);
     /* font-family: 'Roboto', sans-serif; */
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em; 
@@ -191,7 +213,7 @@ letter-spacing: 0.02em;
 
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
