@@ -31,9 +31,19 @@ ul {
 }
 
 
+p {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
 /* ======================== HEADER================== */
 
-
+/* Логотип */
 .logo-text {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -41,13 +51,20 @@ font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--title-text-color)
-}
-
-.webtext {
 color: var(--accent-text-color);
 }
 
+.studiotext-header {
+ color: var(--title-text-color);
+}
+
+
+.studiotext-footer {
+    color: var(--secondary-bg-color);
+   }
+
+
+/* Головна навігація */
 .site-nav .link {
 color: var(--title-text-color);
 }
@@ -69,6 +86,7 @@ color: var(--title-text-color);
 }
 
 
+/* Посилання авторизації */
 
 .auth-nav a {
     color: var(--main-text-color);
@@ -83,7 +101,7 @@ color: var(--title-text-color);
 
 
 
-/* ==========================HERO====================== */
+/* ==========================HERO INDEX FILE====================== */
 
  .hero { 
 /* position: absolute;
@@ -127,7 +145,7 @@ letter-spacing: 0.04em;
 
 
 
-/* ===========================BODY==================== */
+/* ===========================BODY INDEX==================== */
 
 .section-title {
 color:var(--title-text-color);
@@ -180,8 +198,8 @@ letter-spacing: 0.02em;
 
 
 .filterbutton {
-    background-color: var(--accent-text-color);
-    color: var(--main-bg-color);
+    background-color: var(--secondary-bg-color);
+    color: var(--accent-text-color);
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -194,7 +212,7 @@ letter-spacing: 0.02em;
 
 .filterbutton:hover,
 .filterbutton:focus {
-    background-color: var(--button-hover-color);
+    background-color: var(--accent-text-color);
     color: var(--main-bg-color);
 }
 
@@ -215,16 +233,9 @@ letter-spacing: 0.02em;
     background-color:#2E2F42;
 }
 
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.studiotext-footer {
     color: var(--secondary-bg-color);
-    }
-
+   }
 
 .footer-text {
 font-size: 16px;
